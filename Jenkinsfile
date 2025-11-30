@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/Amruta9993/Frontend-new-project.git',
+                    url: 'https://github.com/madan0607/nxtgen.git',
                     credentialsId: 'frontend'
             }
         }
